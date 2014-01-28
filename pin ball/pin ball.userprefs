@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Flips.js">
+    <Files>
+      <File FileName="Assets\Scripts\Flips.js" Line="14" Column="63" />
+      <File FileName="Assets\Scripts\Pausa.js" Line="7" Column="28" />
+      <File FileName="Assets\Scripts\Rebote.js" Line="5" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
