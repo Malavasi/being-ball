@@ -15,16 +15,16 @@ function OnCollisionEnter(collision : Collision) {
 		}
 	}
     if(collision.gameObject.tag=="MiniBumperIzquierda"){
-    	rigidbody.velocity.x = -(0.05+rigidbody.velocity.x)*7;
-		rigidbody.velocity.z = -(0.05+rigidbody.velocity.z)*7;
+    	rigidbody.velocity.x = -(0.05+rigidbody.velocity.x)*6;
+		rigidbody.velocity.z = -(0.05+rigidbody.velocity.z)*6;
 		if(sonidoBumper2)
 		{
 			audio.PlayOneShot (sonidoBumper2);
 		}
 	}
 	if(collision.gameObject.tag=="MiniBumperDerecha"){
-    	rigidbody.velocity.x = (0.05+rigidbody.velocity.x)*7;
-		rigidbody.velocity.z = -(0.05+rigidbody.velocity.z)*7;
+    	rigidbody.velocity.x = (0.05+rigidbody.velocity.x)*6;
+		rigidbody.velocity.z = -(0.05+rigidbody.velocity.z)*6;
 		if(sonidoBumper2)
 		{
 			audio.PlayOneShot (sonidoBumper2);

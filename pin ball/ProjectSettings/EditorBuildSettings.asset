@@ -6,4 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/pin ball.unity
+    path: Assets/Escenas/creditos.unity
+  - enabled: 1
+    path: Assets/Escenas/controles.unity
+  - enabled: 1
+    path: Assets/Escenas/pin ball.unity

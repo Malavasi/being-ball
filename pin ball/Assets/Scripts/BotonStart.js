@@ -34,7 +34,7 @@ function Update()
 	}
 	if(tiempo>2.3)
 	{
-		camara.menu = false;
+		//aplication load
 	}
 	
 }

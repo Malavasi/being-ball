@@ -1,25 +1,23 @@
 ﻿#pragma strict
-var espera: float = 0.0f;
-var nomas : boolean = false;
+private var espera: float = 0.0f;
+public var siguiente : String = "";
 
 function Start () {
 
 }
 
 /*
- * Pone la presentacion de las imagenes iniciales
+ * Tiempo de espera
  */
 function Update () {
 	espera += Time.deltaTime;
-	if(espera<14.0f && 7.0f<espera)
+	if(7.0f<espera)
 	{
-		transform.localPosition = new Vector3(-30,14.98,-35); 
+		Application.LoadLevel(siguiente);
 	}
 	
-	if(16.0f<espera && !nomas)
-	{
-		transform.localPosition = new Vector3(-30,14.98,-21); 
-		nomas = true;
-	}
-	
+}
+
+function OnMouseDown(){
+	Application.LoadLevel(siguiente);
 }

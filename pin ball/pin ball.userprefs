@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Flips.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Rebote.js">
     <Files>
-      <File FileName="Assets\Scripts\Flips.js" Line="14" Column="63" />
-      <File FileName="Assets\Scripts\Pausa.js" Line="7" Column="28" />
-      <File FileName="Assets\Scripts\Rebote.js" Line="5" Column="4" />
+      <File FileName="Assets\Scripts\Rebote.js" Line="27" Column="56" />
+      <File FileName="Assets\Scripts\Espera.js" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
