@@ -479,6 +479,14 @@ Prefab:
       propertyPath: m_Name
       value: MiniBumberDerecho
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 9252db31d68f7df44a82b03f7e93fc1e, type: 3}
+      propertyPath: m_TagString
+      value: FlipR
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 9252db31d68f7df44a82b03f7e93fc1e, type: 3}
+      propertyPath: m_TagString
+      value: FlipL
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: 9252db31d68f7df44a82b03f7e93fc1e, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9252db31d68f7df44a82b03f7e93fc1e, type: 3}
@@ -1060,7 +1068,7 @@ GameObject:
   - 108: {fileID: 368584053}
   m_Layer: 0
   m_Name: L_flipper
-  m_TagString: Untagged
+  m_TagString: FlipL
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2595,6 +2603,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c88a7e5bf1d27e64d8ff72fc3c850dca, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c88a7e5bf1d27e64d8ff72fc3c850dca, type: 2}
   m_RootGameObject: {fileID: 348027130}
@@ -2778,7 +2790,7 @@ GameObject:
   - 108: {fileID: 1122323701}
   m_Layer: 0
   m_Name: R_flipper
-  m_TagString: Untagged
+  m_TagString: FlipR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3002,6 +3014,8 @@ MonoBehaviour:
   Tecla: m
   Tecla2: z
   Sonido: {fileID: 8300000, guid: 2809abe6009671f429d6edfeb7f6312a, type: 3}
+  izq: 0
+  der: 0
 --- !u!64 &1134683011
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3512,6 +3526,10 @@ Prefab:
     - target: {fileID: 400000, guid: db9ca61bec65be8448ff589ee485a317, type: 2}
       propertyPath: m_LocalRotation.w
       value: -4.37113883e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: db9ca61bec65be8448ff589ee485a317, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db9ca61bec65be8448ff589ee485a317, type: 2}

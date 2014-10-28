@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Rebote.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Dropbox\Trabajos\Trabajos\Juegos\demo\Assets\Scripts\Desaparecer.cs">
     <Files>
-      <File FileName="Assets\Scripts\Rebote.js" Line="27" Column="56" />
-      <File FileName="Assets\Scripts\Espera.js" Line="20" Column="1" />
+      <File FileName="..\..\..\Dropbox\Trabajos\Trabajos\Juegos\demo\Assets\Scripts\Desaparecer.cs" Line="6" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
